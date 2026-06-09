@@ -1,7 +1,8 @@
-.fonteTitulo{
-  font-family: "Rammetto One", sans-serif;
+.fonteTitulo {
+  font-family: "Paytone One", sans-serif;
   font-weight: 400;
   font-style: normal;
+
 }
 
 
@@ -10,4 +11,64 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+  background-color: navy;
+
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+
+}
+
+header .imagensPartido {
+  width: 30%;
+}
+
+header .imagensPartido img {
+  width: 100px;
+  height: 100px;
+}
+
+header .imagensPartido .imgPartido1 {
+  width: 80px;
+  height: 80px;
+   margin-bottom: 10px;
+}
+
+#menu #menuUl {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+  list-style: none;
+  font-weight: 800;
+ 
+}
+
+#menu #menuUl a {
+  text-decoration: none;
+  
+  display: flex;
+  margin: 10px;
+   color: white;
+   font-size: 15px;
+   text-transform: uppercase;
+
+   transition: 0.1s all ease-in-out;
+}
+
+#menu #menuUl a:hover {
+  font-size: 17px;
+  color: lightgrey;
 }
